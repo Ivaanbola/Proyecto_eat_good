@@ -1,0 +1,25 @@
+<?xml version="1.0" enctype="UTF-8">
+
+        <!DOCTYPE usuarios [
+                <!ELEMENT usuario (nombre,apellido,provincia,comunidad?,email,telefono,captcha)>
+                <!ELEMENT nombre(#PCDATA)>
+                <!ELEMENT apellido(#PCDATA)>
+                <!ELEMENT provincia(#PCDATA)>
+                <!ELEMENT comunidad(#PCDATA)>
+                <!ELEMENT email(#PCDATA)>
+                <!ELEMENT telefono(#PCDATA)>
+                <!ELEMENT captcha(#PCDATA)>
+                <!ATTLIST usuarios id CDATA #REQUIRED >
+
+                ]>
+
+<usuarios id="1">
+    <nombre></nombre>
+    <apellido></apellido>
+    <provincia></provincia>
+    <comunidad></comunidad>
+    <email></email>
+    <telefono></telefono>
+    <captcha></captcha>
+
+</usuarios>

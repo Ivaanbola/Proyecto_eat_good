@@ -1,0 +1,255 @@
+body{
+    background: url('../img/fondomadera.jpg') no-repeat;
+    background-size:100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+}
+
+header{
+
+
+}
+nav{
+    margin: 15px 20px 15px 15px;
+    border:0px solid #369;
+    overflow: hidden;
+    text-align: center;
+    display:block;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+
+}
+input{
+    font-family: "Comic Sans MS", cursive, sans-serif;   
+    font-size:8pt;               
+    color:#008000;                 
+    border: 1px dotted red;        
+    background-color:#fff;     
+    border-radius: 15px;
+
+}
+nav li{
+
+    float:left;
+    width:13%;
+    margin-right: 13px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+/* meter numero para su posicion y colores*/
+nav li a
+{
+    background-color: #B82B4B;
+    color: #fff;
+    display: list-item;
+    font-size: 1.5em;
+    margin: 2 1.5em 2 2;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+nav li a:hover
+{
+    background-color: #FFC402;
+    color: #B82B4B;	
+    -webkit-transform: scale(1.2) rotate(-5deg);
+    text-align: center;
+
+}
+
+/* derecha del cuerpo*/
+section{
+
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width:72%;
+    color: #000;
+    border:0px solid #369;
+    height: 1010px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+
+
+}
+
+.button {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    padding: 6px 25px 0px 20px;
+    margin: 10px 8px 20px 0px;
+    display: inline-block;
+    float: center;
+    text-decoration: none;
+    width: 170px; height: 27px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #B82B4B; 
+    -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
+    -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
+    box-shadow: 0 3px rgba(58,87,175,.75);
+    transition: all 0.1s linear 0s; 
+
+}
+
+.button:hover {
+    top: 3px;
+    background-color:#000;
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    box-shadow: none;
+
+}
+
+
+/* izquierda de cuerpo */
+aside{
+
+    float: right;
+    margin: 10px 10px 10px 10px;
+    border:0px solid #369;
+    width: 23%;
+    height: 1010px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+
+}
+
+/* pie */
+footer{
+    height:70px;  
+}
+
+input{
+    color:black;
+}
+
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=88);
+}
+.white_content {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 55%;
+    height: 55%;
+    padding: 20px;
+    border: 0px solid #fff;
+    background-color: #fff;
+    z-index:1002;
+    overflow: auto;
+}
+
+.formularioLogin{
+    margin: 16px;
+}
+table {
+    border-spacing: 5px;
+}
+
+
+@media only screen and (min-width: 620px) and (max-width: 1000px) {
+    body {
+        width: 610px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section img{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    nav ul{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    nav li{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+    .foto500{
+        display: none;
+    }
+    section{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    aside{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    body {
+        width: 300px;
+        margin: 0 auto;
+    }
+    nav{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    nav ul{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    nav li{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    section{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+    section img{
+        display: none;
+    }
+    aside {
+        width: 100%;
+    }
+    .foto500{
+        display: none;
+    }
+}
+
+
